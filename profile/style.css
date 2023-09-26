@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Mooli:wght@300;400;500;700");
+
+body {
+  background-color: #F7F9FC;
+  font-family: "Mooli";
+  color: #575F7D;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: bolder;
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: bolder;
+  color: #7FCE90;
+  font-size: 24px;
+}
+
+a {
+  font-weight: bolder;
+  color: #6B72E1;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.white-block {
+  background: #F7F9FC;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 600px;        /* Set the width */
+  margin: 15px auto;      /* Set automatic margins on right/left */
+}
+
+.container {
+  text-align: center;
+  background: #F7F9FC;
+  background-size: cover;
+  margin: 40px auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

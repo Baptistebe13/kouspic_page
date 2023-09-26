@@ -42,7 +42,7 @@ img {
 .white-block {
   background: #F7F9FC;                         /* White background */
   padding: 30px;                             /* Internal space */
-  border-radius: 4px;
+  border-radius: 3px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   width: 600px;        /* Set the width */
   margin: 15px auto;      /* Set automatic margins on right/left */
